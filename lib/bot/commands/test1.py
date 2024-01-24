@@ -32,7 +32,7 @@ class test1(commands.Cog):
     @commands.has_role("Cool Role")  # You can use either the Role Name
     @commands.has_role(1234567890123456)  # Or the Role ID
     @testgrp.command()
-    async def hello(self, ctx: discord.ApplicationContext):
+    async def hello2(self, ctx: discord.ApplicationContext):
         await ctx.respond('Hello Cool Person 😎.')
 
     # This is an example of using Arguments
